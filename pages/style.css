@@ -94,6 +94,91 @@
   text-align: left;
 }
 
+.image {
+  margin: 92px auto 0 auto;
+  max-width: 1184px;
+}
+
+.image__item {
+  margin: auto;
+}
+
+.places {
+  max-width: 987px;
+  margin: 92px auto 0 auto;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 48px;
+  grid-template-areas:
+    "title website"
+    "image paragraph"
+    "iframe .";
+}
+
+.place__title {
+  margin: 0;
+  grid-area: title;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: left;
+  max-width: 460px;
+  max-height: 152px;
+}
+
+.place__image {
+  margin: 0;
+  grid-area: image;
+}
+
+.place__website {
+  max-width: 456px;
+  max-height: 45px;
+}
+
+.place__url-headding {
+  margin: 0 0 8px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.place__artist {
+  margin: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.place__paragraph {
+  margin: 0;
+  max-width: 484px;
+  grid-area: paragraph;
+}
+
+.place__paragraph-item {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.34px;
+  text-align: left;
+  margin: 0 0 25px 0;
+}
+
+.place__paragraph-item:last-child {
+  margin: 0;
+}
 .place__iframe {
   background-color: #0278fe;
+  grid-area: iframe;
 }
