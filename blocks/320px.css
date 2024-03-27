@@ -81,6 +81,111 @@
   }
 
   .places {
-    margin-top: 62px;
+    width: 288px;
+    margin: 62px auto;
+  }
+
+  .place {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .place:last-child {
+    margin: 0 auto;
+  }
+
+  .place__title {
+    max-width: 100%;
+    margin: 0 0 30px 0;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .place__website {
+    max-width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .place__url-headding {
+    margin: auto 0 8px 0;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    letter-spacing: 0.12em;
+    text-align: left;
+  }
+
+  .place__artist {
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .place__image {
+    max-width: 100%;
+  }
+
+  .place__paragraph {
+    max-width: 100%;
+  }
+
+  .place__paragraph-item {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    margin: 0 0 7px 0;
+  }
+
+  .place__paragraph-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .place__frame {
+    width: 288px;
+  }
+
+  .place__frame-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: center;
+  }
+
+  .cover {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .cover__title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .cover__subtitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  .footer__copyright {
+    padding-top: 64px;
   }
 }
