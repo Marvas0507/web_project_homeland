@@ -152,10 +152,7 @@
   }
 
   .place__frame {
-    width: 288px;
-  }
-
-  .place__frame-text {
+    max-width: 288px;
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
@@ -164,11 +161,11 @@
   }
 
   .cover {
-    padding-top: 46px;
-    padding-bottom: 46px;
+    max-width: 320px;
+    height: 254px;
   }
 
-  .cover__title {
+  .cover__content-title {
     font-family: Inter;
     font-size: 32px;
     font-weight: 900;
@@ -176,7 +173,7 @@
     text-align: center;
   }
 
-  .cover__subtitle {
+  .cover__content-subtitle {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;

@@ -110,6 +110,11 @@
     grid-area: frame;
   }
 
+  .cover {
+    max-width: 768px;
+    height: 746px;
+  }
+
   .footer__copyright {
     padding-top: 88px;
   }
