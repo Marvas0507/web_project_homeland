@@ -108,6 +108,7 @@
 
   .place__frame {
     grid-area: frame;
+    width: 355px;
   }
 
   .cover {

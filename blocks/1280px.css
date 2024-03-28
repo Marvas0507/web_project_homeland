@@ -34,6 +34,7 @@
 }
 
 .lead__image {
+  max-width: 100%;
   margin: 64px auto 0 auto;
 }
 
@@ -114,7 +115,7 @@
   }
 
   .place__title {
-    max-width: 100%;
+    width: 510px;
     margin: 0;
     grid-area: title;
     font-family: Inter;
@@ -175,6 +176,7 @@
 
   .place__frame {
     grid-area: frame;
+    width: 355px;
   }
 }
 
@@ -183,9 +185,6 @@
   border: none;
   background-color: #0278fe;
   cursor: pointer;
-  background-color: #0278fe;
-  max-width: 355px;
-  max-height: 48px;
   padding: 13px 20px 13px 20px;
   gap: 10px;
   border-radius: 4px 0px 0px 0px;
@@ -205,7 +204,7 @@
 }
 
 .cover {
-  background-image: url(../images/cover__background.svg);
+  background-image: url(../images/cover__background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1184px;
@@ -235,7 +234,7 @@
   margin-bottom: auto;
 }
 
-.cover__content-itle {
+.cover__content-title {
   margin: 0;
   font-family: Inter;
   font-size: 72px;

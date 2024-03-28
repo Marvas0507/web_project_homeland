@@ -1,8 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/1280px.css);
 @import url(../blocks/768px.css);
 @import url(../blocks/320px.css);
-@font-face {
-  font-family: Inter;
-  src: url(../fonts/inter.css);
-}
