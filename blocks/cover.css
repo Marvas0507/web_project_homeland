@@ -1,0 +1,113 @@
+.cover {
+  background-image: url(../images/cover__background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  height: 740px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+  
+.cover__hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.cover__hover:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: #2a2c2f;
+}
+  
+.cover__content {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cover__content-title {
+  margin: 0;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cover__content-subtitle {
+  max-width: 280px;
+  margin: 76px auto 32px auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.cover__content-frame {
+  display: inline-block;
+  border: none;
+  max-width: 198px;
+  max-height: 48px;
+  padding: 13px 20px 13px 20px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0278fe;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: center;
+}
+
+.cover__content-frame:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover {
+    max-width: 768px;
+    height: 746px;
+  }
+
+  .footer__copyright {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .cover {
+    max-width: 320px;
+    height: 254px;
+  }
+
+  .cover__content-title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .cover__content-subtitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  .cover__content-frame{
+    max-width: 288px;
+  }
+}
